@@ -1,3 +1,4 @@
 Flask
 delta-rest-client
 python-dotenv
+gunicorn 
