@@ -36,9 +36,9 @@ def webhook():
     size = position["size"]
 
     if position["size"] == 0:
-        order_size = 1
+        order_size = 5
     else:
-        order_size = 2
+        order_size = 10
 
     print("CURRENT POSITION =", position)
     print("ORDER SIZE =", order_size)
